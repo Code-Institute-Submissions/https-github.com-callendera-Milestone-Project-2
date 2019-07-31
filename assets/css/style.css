@@ -1,5 +1,6 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+
     background-color: #abada7;
     color: #fafafa;
 }
@@ -21,6 +22,7 @@ body {
     justify-content: center;
     /*--- the height that container will take up in the viewport ---*/
     height: 85vh;
+    
 }
 
 .opaque-overlay {
@@ -36,5 +38,72 @@ body {
 
     /*---pulls content forward to be visible on Z-index axis---*/
     z-index: 1;
+
+}
+
+.my-navbar {
+    font-family: 'Roboto Condensed', sans-serif;
+
+    /*--- removes margins automatically set by bootstrap ---*/
+    margin: 0;
+    /*--- removes padding automatically set by bootstrap ---*/
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    padding-top: 0;
+    background-color: transparent; 
+    /*--- color of text white ---*/
+    color: #fafafa;
+}
+
+.my-navbar-nav {
+    /*--- removes padding automatically set by bootstrap ---*/
+    padding-left: 30px;
+    /*--- color of text white ---*/
+    color: #fafafa;
+}
+
+
+
+.my-nav-link {
+    /*--- color of text white ---*/
+    color: #fafafa;
+    /*--- color change transition when hovering over my-nav-link ---*/
+    transition: all 0.40s ease-in-out;
+    -moz-transition: all 0.40s ease-in-out;
+    -webkit-transition: all 0.40s ease-in-out;
+    -o-transition: all 0.40s ease-in-out;
+    /*--- adjustments for each web browser ---*/
+}
+
+
+.my-navbar-toggler {
+    /*--- display to fill contents ---*/
+    display: contents;
+    width: 2em;
+    height: 2em;
+    /*--- aligns to fit toggler container ---*/
+    vertical-align: middle;
+    /*--- content aligned according to parent element ---*/
+    content: "";
+    /*--- toggler doesn't repeat and it center to container ---*/
+    background: no-repeat center center;
+    /*--- toggler 100% of toggler container ---*/
+    background-size: 100% 100%;
+
+    /*--- color of text white ---*/
+    color: #fafafa;
+    /*--- removes margins automatically set by bootstrap ---*/
+    margin-right: 30px;
+}
+
+.my-navbar-toggler-icon {
+    /*--- color of icon white ---*/
+    color: #fafafa;
+
+}
+
+.my-navbar-brand {
+    font-family: 'Amatic SC', cursive;
 
 }
