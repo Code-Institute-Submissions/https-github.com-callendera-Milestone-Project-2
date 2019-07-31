@@ -22,3 +22,19 @@ body {
     /*--- the height that container will take up in the viewport ---*/
     height: 85vh;
 }
+
+.opaque-overlay {
+    /*---positioned relative to the nearest positioned ancestor---*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*--- size of overlay to just cover background image ---*/
+    height: 85%;
+    width: 100%;
+    /*--- color of background to be grey but almost transparent to make white text stand out ---*/
+    background-color: rgba(0, 0, 0, 0.67);
+
+    /*---pulls content forward to be visible on Z-index axis---*/
+    z-index: 1;
+
+}
