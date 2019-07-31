@@ -19,13 +19,37 @@
 
 <body>
     <!--NavBar-->
+
     <!--Navbar styles are given by the class names. and the navbar is fixed at the top to allow a better UX-->
-    <nav class="navbar navbar-light bg-light fixed-top">
+
+
+    <nav class="navbar navbar-dark bg-dark my-navbar navbar-expand-sm fixed-top">
         <a class="navbar-brand" href="#">
-    <img src="assets/images/heart.jpg" width="50" height="50" class="d-inline-block align-top" alt="FCPF Logo">
+    <img src="assets/images/heart.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
     Fayette County PRIDE Foundation
   </a>
-  <a class="btn btn-success" href="#" role="button">Give</a>
+
+        <!--this code allows my navbar tp be compressed into a navbar toggler on smaller screen sizes-->
+        <button class="navbar-toggler ml-auto my-navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon my-navbar-toggler-icon"></span></button>
+
+
+        <!--this code targets the toggler-->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <!--these are my links to navigate you through the site-->
+            <ul class="navbar-nav my-navbar-nav mr-auto justify-content-center">
+                <li class="nav-item mr-2"><a class="nav-link my-nav-link" href="//">Donate</a></li>
+                <li class="nav-item mr-2"><a class="nav-link my-nav-link" href="//">Vendors</a></li>
+                <li class="nav-item mr-2"><a class="nav-link my-nav-link" href="//">Volunteer</a></li>
+                <li class="nav-item mr-6"><a class="nav-link my-nav-link" href="//">Contact Us!</a></li>
+            </ul>
+            <!--This code blocks the button and text from being shown on small screens, but appears on larger screen sizes-->
+            <div class="d-none d-lg-block">
+                <!--gives the viewer the oportunity to book the band for any events while still browsing the site-->
+                
+                <button type="button" class="btn btn-sm my-nav-btn btn-success" data-toggle="modal" data-target="//">Become a Sponsor!</button>
+            </div>
+        </div>
     </nav>
     <!--navbar-->
 
