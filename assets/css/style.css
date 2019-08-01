@@ -180,8 +180,9 @@ body {
 
 .cover-heading {
     font-family: 'Amatic SC', cursive;
-    font-size: 200px;
-    z-index: 3;
+    font-size: 100px;
+    padding-top: 100px;
+   
 }
 
 /*---Media Queries--*/
@@ -248,4 +249,9 @@ body {
    height: 90vh;
 
 }
+.cover-heading {
+    font-size: 200px;
+   
+}
+
 }
