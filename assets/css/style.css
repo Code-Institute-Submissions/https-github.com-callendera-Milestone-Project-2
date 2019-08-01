@@ -27,6 +27,11 @@ body {
     
 }
 
+.involved-container {
+    padding-top: 500px;
+
+}
+
 .opaque-overlay {
     /*---positioned relative to the nearest positioned ancestor---*/
     position: absolute;
@@ -167,11 +172,32 @@ body {
     /*--- adjustments for each web browser ---*/
 }
 
+/*---MISC.--*/
+
+.involved-container {
+    padding: 0px;
+}
+
+.cover-heading {
+    font-family: 'Amatic SC', cursive;
+    font-size: 200px;
+    z-index: 3;
+}
+
 /*---Media Queries--*/
 
 @media (min-width: 576px){
     .my-navbar-nav {
     padding-left: 0px;
+}
+
+.opaque-overlay {
+   height: 60vh;
+
+}
+
+.involved-container {
+    padding: 0px;
 }
 }
 
@@ -216,5 +242,10 @@ body {
     /*--- the height that container will take up in the viewport ---*/
     height: 90vh;
     
+}
+
+.opaque-overlay {
+   height: 90vh;
+
 }
 }
