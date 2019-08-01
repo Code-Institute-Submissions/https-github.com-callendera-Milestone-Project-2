@@ -1,3 +1,5 @@
+
+/*--Background Styles--*/
 body {
     font-family: 'Roboto Condensed', sans-serif;
 
@@ -7,7 +9,7 @@ body {
 
 .callout-container {
     /*--- sets background image for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
-    background: url("../images/pride2.png")no-repeat center center fixed;
+    background: url("../images/flag.jpg")no-repeat center center fixed;
     /*--- adjusts background for different browsers ---*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -21,7 +23,7 @@ body {
     align-items: center;
     justify-content: center;
     /*--- the height that container will take up in the viewport ---*/
-    height: 90vh;
+    height: 60vh;
     
 }
 
@@ -40,6 +42,8 @@ body {
     z-index: 1;
 
 }
+
+/*--Navbar Styles--*/
 
 .my-navbar {
     font-family: 'Roboto Condensed', sans-serif;
@@ -106,4 +110,51 @@ body {
 .my-navbar-brand {
     font-family: 'Amatic SC', cursive;
 
+}
+
+
+/*---Media Queries--*/
+
+@media (min-width: 992px) {
+    .callout-container {
+    /*--- sets background image for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
+    background: url("../images/pride2.png")no-repeat top center fixed;
+    /*--- adjusts background for different browsers ---*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+
+    /*--- makes the background fit to the container ---*/
+    overflow: hidden;
+
+    /*--- aligns and justifies text in container ---*/
+    align-items: center;
+    justify-content: center;
+    /*--- the height that container will take up in the viewport ---*/
+    height: 46.9vh;
+    
+}
+}
+
+@media (min-width: 1200px) {
+    .callout-container {
+    /*--- sets background image for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
+    background: url("../images/pride2.png")no-repeat center center fixed;
+    /*--- adjusts background for different browsers ---*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /*--- makes the background fit to the container ---*/
+    overflow: hidden;
+
+    /*--- aligns and justifies text in container ---*/
+    align-items: center;
+    justify-content: center;
+    /*--- the height that container will take up in the viewport ---*/
+    height: 90vh;
+    
+}
 }
