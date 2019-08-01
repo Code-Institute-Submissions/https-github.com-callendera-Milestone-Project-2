@@ -3,7 +3,7 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
 
-    background-color: #abada7;
+    background-color:#676865;
     color: #fafafa;
 }
 
@@ -65,6 +65,7 @@ body {
     padding-left: 30px;
     /*--- color of text white ---*/
     color: #fafafa;
+    
 }
 
 
@@ -112,8 +113,49 @@ body {
 
 }
 
+/*--Buttons--*/
+
+.my-btn {
+    background-color: #28a74500;
+    border-color: #03A9F4;
+    color: #03A9F4;
+    font-weight: 800;
+}
+
+.my-btn:hover {
+    /*--- color of background: darker green ---*/
+    background-color: #03A9F4;
+    /*--- when mouse is hovered the button will transition for .40seconds to a darker green color. the color will gradually ease in and then ease out. ---*/
+    transition: all 0.40s ease-in-out;
+    -moz-transition: all 0.40s ease-in-out;
+    -webkit-transition: all 0.40s ease-in-out;
+    -o-transition: all 0.40s ease-in-out;
+    /*--- adjustments for each web browser ---*/
+}
+
+.social-media i {
+    color: #03A9F4;
+    font-size: 20px;
+}
+
+.social-media i:hover {
+ /*--- color of background: darker green ---*/
+    color: #2567ae;
+    /*--- when mouse is hovered the button will transition for .40seconds to a darker green color. the color will gradually ease in and then ease out. ---*/
+    transition: all 0.40s ease-in-out;
+    -moz-transition: all 0.40s ease-in-out;
+    -webkit-transition: all 0.40s ease-in-out;
+    -o-transition: all 0.40s ease-in-out;
+    /*--- adjustments for each web browser ---*/
+}
 
 /*---Media Queries--*/
+
+@media (min-width: 576px){
+    .my-navbar-nav {
+    padding-left: 0px;
+}
+}
 
 @media (min-width: 992px) {
     .callout-container {
