@@ -116,6 +116,7 @@ body {
 /*--Buttons--*/
 
 .my-btn {
+    /*---blue color--*/
     background-color: #28a74500;
     border-color: #03A9F4;
     color: #03A9F4;
@@ -123,7 +124,7 @@ body {
 }
 
 .my-btn:hover {
-    /*--- color of background: darker green ---*/
+    /*--- color of background: blue ---*/
     background-color: #03A9F4;
     /*--- when mouse is hovered the button will transition for .40seconds to a darker green color. the color will gradually ease in and then ease out. ---*/
     transition: all 0.40s ease-in-out;
@@ -134,6 +135,7 @@ body {
 }
 
 .social-media i {
+    /*---blue color--*/
     color: #03A9F4;
     font-size: 20px;
 }
@@ -142,6 +144,22 @@ body {
  /*--- color of background: darker green ---*/
     color: #2567ae;
     /*--- when mouse is hovered the button will transition for .40seconds to a darker green color. the color will gradually ease in and then ease out. ---*/
+    transition: all 0.40s ease-in-out;
+    -moz-transition: all 0.40s ease-in-out;
+    -webkit-transition: all 0.40s ease-in-out;
+    -o-transition: all 0.40s ease-in-out;
+    /*--- adjustments for each web browser ---*/
+}
+
+.my-icon i {
+    /*---blue color--*/
+     color: #03A9F4;
+    font-size: 50px;
+}
+.my-icon i:hover {
+     /*--- color of background: darker blue ---*/
+    color: #2567ae;
+    /*--- when mouse is hovered the button will transition for .40seconds to a darker blue color. the color will gradually ease in and then ease out. ---*/
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
