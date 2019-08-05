@@ -28,7 +28,23 @@ body {
 }
 
 .involved-container {
+    color: black;
     padding-top: 500px;
+     background: url("../images/stripes.png")repeat center center fixed;
+    /*--- adjusts background for different browsers ---*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /*--- makes the background fit to the container ---*/
+    overflow: hidden;
+
+    /*--- aligns and justifies text in container ---*/
+    align-items: center;
+    justify-content: center;
+    /*--- the height that container will take up in the viewport ---*/
+    height: 60vh;
 
 }
 
