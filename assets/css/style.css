@@ -3,7 +3,7 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
 
-    background-color: #fafafa;
+    background-color: #ffffff;
     color: black;
 }
 
@@ -70,9 +70,9 @@ body {
     padding-right: 20px;
     padding-bottom: 0;
     padding-top: 0;
-    background-color: #fafafa; 
+    background-color: #ffffff; 
     /*--- color of text white ---*/
-    color: #000000;
+    
     height: 150px;
 }
 
@@ -80,7 +80,7 @@ body {
     /*--- removes padding automatically set by bootstrap ---*/
     padding-left: 30px;
     /*--- color of text white ---*/
-    color: #000000;
+    ;
     
 }
 
