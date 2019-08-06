@@ -3,8 +3,8 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
 
-    background-color:#676865;
-    color: #fafafa;
+    background-color: #fafafa;
+    color: black;
 }
 
 .callout-container {
@@ -30,12 +30,6 @@ body {
 .involved-container {
     color: black;
     padding-top: 500px;
-     background: url("../images/stripes.png")repeat center center fixed;
-    /*--- adjusts background for different browsers ---*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 
     /*--- makes the background fit to the container ---*/
     overflow: hidden;
@@ -76,16 +70,16 @@ body {
     padding-right: 20px;
     padding-bottom: 0;
     padding-top: 0;
-    background-color: transparent; 
+    background-color: #fafafa; 
     /*--- color of text white ---*/
-    color: #fafafa;
+    color: #000000;
 }
 
 .my-navbar-nav {
     /*--- removes padding automatically set by bootstrap ---*/
     padding-left: 30px;
     /*--- color of text white ---*/
-    color: #fafafa;
+    color: #000000;
     
 }
 
@@ -93,7 +87,7 @@ body {
 
 .my-nav-link {
     /*--- color of text white ---*/
-    color: #fafafa;
+    color: black;
     /*--- color change transition when hovering over my-nav-link ---*/
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
@@ -118,14 +112,14 @@ body {
     background-size: 100% 100%;
 
     /*--- color of text white ---*/
-    color: #fafafa;
+    color: black;
     /*--- removes margins automatically set by bootstrap ---*/
     margin-right: 30px;
 }
 
 .my-navbar-toggler-icon {
     /*--- color of icon white ---*/
-    color: #fafafa;
+    color: black;
 
 }
 
@@ -172,9 +166,10 @@ body {
     /*--- adjustments for each web browser ---*/
 }
 
+
 .my-icon i {
     /*---blue color--*/
-     color: #03A9F4;
+     color:  #03A9F4;
     font-size: 50px;
 }
 .my-icon i:hover {
