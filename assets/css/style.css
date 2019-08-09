@@ -259,9 +259,32 @@ body {
     color: #ffffff;
 }
 
+.history-div {
+    width: 600px;
+    margin-left: 450px;
+    padding-top: 100px;
+}
 
+.group-image-div {
+    
+     background: url("../images/group.png")no-repeat center center;
+    /*--- adjusts background for different browsers ---*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
+    /*--- makes the background fit to the container ---*/
+    overflow: hidden;
 
+    /*--- aligns and justifies text in container ---*/
+    align-items: center;
+    justify-content: center;
+    
+    height: 300px;
+    width: 800px;
+    margin-left: ;
+}
 
 /*---MISC.--*/
 
