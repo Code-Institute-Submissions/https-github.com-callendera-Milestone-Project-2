@@ -9,7 +9,7 @@ body {
 
 .callout-container {
     /*--- sets background image for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
-    background: url("../images/flag.jpg")no-repeat center center fixed;
+    background: url("../images/crowd.jpg")no-repeat center center fixed;
     /*--- adjusts background for different browsers ---*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -23,7 +23,7 @@ body {
     align-items: center;
     justify-content: center;
     /*--- the height that container will take up in the viewport ---*/
-    height: 60vh;
+    height: 100vh;
     
 }
 
@@ -80,7 +80,7 @@ body {
     /*--- removes padding automatically set by bootstrap ---*/
     padding-left: 30px;
     /*--- color of text white ---*/
-    ;
+    
     
 }
 
@@ -184,6 +184,68 @@ body {
     /*--- adjustments for each web browser ---*/
 }
 
+/*--- Images ---*/
+
+.involved-div3 {
+    
+     background: url("../images/holding.jpg")no-repeat center center;
+    /*--- adjusts background for different browsers ---*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /*--- makes the background fit to the container ---*/
+    overflow: hidden;
+
+    /*--- aligns and justifies text in container ---*/
+    align-items: center;
+    justify-content: center;
+    
+    width: 400px;
+    height: 400px;
+}
+
+.involved-div2 {
+    
+     background: url("../images/vendors.jpg")no-repeat center center;
+    /*--- adjusts background for different browsers ---*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /*--- makes the background fit to the container ---*/
+    overflow: hidden;
+
+    /*--- aligns and justifies text in container ---*/
+    align-items: center;
+    justify-content: center;
+    
+    width: 400px;
+    height: 400px;
+}
+
+.involved-div1 {
+    
+     background: url("../images/rainbow.jpg")no-repeat center center;
+    /*--- adjusts background for different browsers ---*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /*--- makes the background fit to the container ---*/
+    overflow: hidden;
+
+    /*--- aligns and justifies text in container ---*/
+    align-items: center;
+    justify-content: center;
+    
+    width: 400px;
+    height: 400px;
+}
+
 /*---MISC.--*/
 
 .involved-container {
@@ -218,55 +280,15 @@ body {
 }
 
 @media (min-width: 992px) {
-    .callout-container {
-    /*--- sets background image for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
-    background: url("../images/pride2.png")no-repeat top center fixed;
-    /*--- adjusts background for different browsers ---*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: contain;
 
-    /*--- makes the background fit to the container ---*/
-    overflow: hidden;
-
-    /*--- aligns and justifies text in container ---*/
-    align-items: center;
-    justify-content: center;
-    /*--- the height that container will take up in the viewport ---*/
-    height: 46.9vh;
-    
-}
 }
 
-@media (min-width: 1200px) {
-    .callout-container {
-    /*--- sets background image for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
-    background: url("../images/pride2.png")no-repeat center center fixed;
-    /*--- adjusts background for different browsers ---*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    /*--- makes the background fit to the container ---*/
-    overflow: hidden;
-
-    /*--- aligns and justifies text in container ---*/
-    align-items: center;
-    justify-content: center;
-    /*--- the height that container will take up in the viewport ---*/
-    height: 90vh;
-    
-}
+@media (min-width: 1200px){
 
 .opaque-overlay {
    height: 90vh;
 
 }
-.cover-heading {
-    font-size: 200px;
-   
-}
+
 
 }
