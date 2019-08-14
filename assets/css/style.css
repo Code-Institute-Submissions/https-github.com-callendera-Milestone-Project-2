@@ -168,6 +168,10 @@ body {
     /*--- adjustments for each web browser ---*/
 }
 
+.social-heading {
+    padding-top: 100px;
+}
+
 .social-media i {
     /*---blue color--*/
     color: #03A9F4;
