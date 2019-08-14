@@ -264,6 +264,10 @@ body {
     height: 400px;
 }
 
+.involved-padding {
+    padding-top: 50px;
+}
+
 .involved-margin {
     margin-left: 400px; 
     margin-top: 40px;
