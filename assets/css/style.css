@@ -137,9 +137,27 @@ body {
     border-color: #03A9F4;
     color: #03A9F4;
     font-weight: 800;
+    
 }
 
 .my-btn:hover {
+    /*--- color of background: blue ---*/
+    background-color: #03A9F4;
+    /*--- when mouse is hovered the button will transition for .40seconds to a darker green color. the color will gradually ease in and then ease out. ---*/
+    transition: all 0.40s ease-in-out;
+    -moz-transition: all 0.40s ease-in-out;
+    -webkit-transition: all 0.40s ease-in-out;
+    -o-transition: all 0.40s ease-in-out;
+    /*--- adjustments for each web browser ---*/
+}
+
+.my-involved-btn {
+    background-color: #ffffff;
+    border-color:  #03A9F4;
+    color:  #03A9F4;
+}
+
+.my-involved-btn:hover {
     /*--- color of background: blue ---*/
     background-color: #03A9F4;
     /*--- when mouse is hovered the button will transition for .40seconds to a darker green color. the color will gradually ease in and then ease out. ---*/
