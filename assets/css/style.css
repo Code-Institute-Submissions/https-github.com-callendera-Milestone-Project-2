@@ -322,6 +322,10 @@ body {
 
 /*---MISC.--*/
 
+.my-text-box {
+    padding: 20px;
+}
+
 .my-jumbotron {
     width: 1200px;
     margin-left: 170px;
