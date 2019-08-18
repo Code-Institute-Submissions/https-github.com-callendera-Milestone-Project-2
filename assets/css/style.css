@@ -328,6 +328,102 @@ footer {
     
 }
 
+.insta1 {
+    background: url("../images/day.png")no-repeat center center;
+    /*--- adjusts background for different browsers ---*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /*--- makes the background fit to the container ---*/
+    overflow: hidden;
+
+    /*--- aligns and justifies text in container ---*/
+    align-items: center;
+    justify-content: center;
+}
+
+.insta2 {
+    background: url("../images/stonewall.png")no-repeat center center;
+    /*--- adjusts background for different browsers ---*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /*--- makes the background fit to the container ---*/
+    overflow: hidden;
+
+    /*--- aligns and justifies text in container ---*/
+    align-items: center;
+    justify-content: center;
+}
+
+.insta3 {
+    background: url("../images/pride2.png")no-repeat center center;
+    /*--- adjusts background for different browsers ---*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /*--- makes the background fit to the container ---*/
+    overflow: hidden;
+
+    /*--- aligns and justifies text in container ---*/
+    align-items: center;
+    justify-content: center;
+}
+
+.insta4 {
+    background: url("../images/poster.png")no-repeat center center;
+    /*--- adjusts background for different browsers ---*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /*--- makes the background fit to the container ---*/
+    overflow: hidden;
+
+    /*--- aligns and justifies text in container ---*/
+    align-items: center;
+    justify-content: center;
+}
+
+.insta5 {
+    background: url("../images/wrong.png")no-repeat center center;
+    /*--- adjusts background for different browsers ---*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /*--- makes the background fit to the container ---*/
+    overflow: hidden;
+
+    /*--- aligns and justifies text in container ---*/
+    align-items: center;
+    justify-content: center;
+}
+
+.insta6 {
+    background: url("../images/sky.png")no-repeat center center;
+    /*--- adjusts background for different browsers ---*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /*--- makes the background fit to the container ---*/
+    overflow: hidden;
+
+    /*--- aligns and justifies text in container ---*/
+    align-items: center;
+    justify-content: center;
+}
+
 .insta-container {
     padding-left: 100px;
 }
