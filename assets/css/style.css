@@ -328,6 +328,17 @@ footer {
     
 }
 
+.insta-container {
+    padding-left: 100px;
+}
+
+.insta-div {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    margin: 40px;
+}
+
 /*---------------TIMELINE-------------*/
 
 .events-heading {
