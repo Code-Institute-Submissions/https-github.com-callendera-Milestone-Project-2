@@ -320,6 +320,67 @@ body {
     
 }
 
+/*---------------TIMELINE-------------*/
+
+.my-timeline-item {
+    /*--- removes padding automatically set by bootstrap ---*/
+    padding: 4em 2em 0em 2em;
+    /*---positioned relative to normal position---*/
+    position: relative;
+    /*--- creates solid line for timeline ---*/
+    border-left: 1px solid;
+}
+
+.my-timeline-item p {
+    /*--- removes padding automatically set by bootstrap ---*/
+    padding: 0;
+    /*--- removes margins automatically set by bootstrap ---*/
+    margin: 0;
+}
+
+/*--- 'before' sets dates ---*/
+
+.my-timeline-item:before {
+    /*--- timeline displays dates to and the attribute sets them to be in order ---*/
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-weight: 500;
+    font-size: 0.8em;
+    /*--- removes padding automatically set by bootstrap ---*/
+    padding: 0;
+    /*--- removes margins automatically set by bootstrap ---*/
+    margin: 0;
+}
+
+/*--- 'after sets dots  ---*/
+
+.my-timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    /*---positioned relative to the nearest positioned ancestor---*/
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background-color: black;
+}
+
+.my-timeline {
+    /*--- removes padding automatically set by bootstrap ---*/
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    z-index: 2;
+}
+
+
+
 /*---MISC.--*/
 
 .my-text-box {
