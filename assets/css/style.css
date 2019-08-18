@@ -300,10 +300,14 @@ footer {
     color: #ffffff;
 }
 
+.event-container {
+    padding-top: 80px;
+}
+
 .history-div {
     width: 600px;
     margin-left: 450px;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .group-image-div {
@@ -491,7 +495,7 @@ footer {
 
 .my-timeline {
     /*--- removes padding automatically set by bootstrap ---*/
-    padding-left: 175px;
+    padding-left: 80px;
     padding-top: 20px;
     padding-right: 50px;
     padding-bottom: 20px;
