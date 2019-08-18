@@ -393,7 +393,7 @@ body {
     /*--- no outline on divider ---*/
     border: 0;
     /*--- color of block divider, grey and slightly transparent ---*/
-    background-color: rgba(0, 0, 0, 0.46);
+    background-color: #ffeb3b;
 }
 
 .my-text-box {
