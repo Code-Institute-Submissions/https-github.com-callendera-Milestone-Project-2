@@ -182,8 +182,13 @@ footer {
     /*--- adjustments for each web browser ---*/
 }
 
+.app-heading {
+    padding-bottom: 30px;
+}
+
 .volunteer-form {
     padding-top: 200px;
+    padding-bottom: 100px;
 }
 
 .footer-NPO {
