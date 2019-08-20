@@ -483,6 +483,11 @@ footer {
 
 /*---------------TIMELINE-------------*/
 
+div#map {
+    min-height: 360px;
+    
+}
+
 .events-heading {
     margin-top: 80px;
 }
