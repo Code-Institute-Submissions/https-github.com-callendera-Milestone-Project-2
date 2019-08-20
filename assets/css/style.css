@@ -483,8 +483,13 @@ footer {
 
 /*---------------TIMELINE-------------*/
 
+.time-map-margin {
+    margin-top: 40px;
+}
+
 div#map {
-    min-height: 360px;
+  
+    min-height: 300px;
     
 }
 
