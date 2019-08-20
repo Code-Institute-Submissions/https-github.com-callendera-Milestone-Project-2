@@ -320,12 +320,18 @@ footer {
 }
 
 .involved-padding {
-    padding-top: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 40px;
 }
 
 .involved-margin {
-    margin-left: 400px; 
+    margin-left: 200px; 
     margin-top: 40px;
+}
+
+.involved-margin3 {
+    margin-left: 390px;
 }
 
 .involved-span {
@@ -465,7 +471,7 @@ footer {
 }
 
 .insta-container {
-    padding-left: 100px;
+    padding-left: 90px;
 }
 
 .insta-div {
