@@ -275,8 +275,8 @@ footer {
     align-items: center;
     justify-content: center;
     
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 
 .involved-div2 {
@@ -295,8 +295,8 @@ footer {
     align-items: center;
     justify-content: center;
     
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 
 .involved-div1 {
@@ -315,8 +315,8 @@ footer {
     align-items: center;
     justify-content: center;
     
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 
 .involved-padding {
@@ -325,18 +325,13 @@ footer {
     padding-top: 40px;
 }
 
-.involved-margin {
-    margin-left: 200px; 
-    margin-top: 40px;
-}
 
-.involved-margin3 {
-    margin-left: 390px;
-}
+
+
 
 .involved-span {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     background-color: #03A9F4;
     margin-top: 200px;
     color: #ffffff;
@@ -347,8 +342,8 @@ footer {
 }
 
 .history-div {
-    width: 600px;
-    margin-left: 450px;
+    width: 400px;
+    margin-left: 100px;
     padding-top: 150px;
 }
 
@@ -573,7 +568,7 @@ div#map {
 
 .my-jumbotron {
     
-    width: 1200px;
+    width: 400px;
     margin-left: 170px;
     margin-top: 100px;
     
@@ -621,5 +616,48 @@ div#map {
 
 }
 
+.my-jumbotron {
+    
+    width: 1200px;
+    margin-left: 170px;
+    margin-top: 100px;
+    
+}
 
+
+.history-div {
+    width: 600px;
+    margin-left: 450px;
+    padding-top: 150px;
+}
+
+.involved-margin {
+    margin-left: 200px; 
+    margin-top: 40px;
+}
+
+.involved-margin3 {
+    margin-left: 390px;
+}
+
+.involved-span {
+    width: 300px;
+    height: 300px;
+    background-color: #03A9F4;
+    margin-top: 200px;
+    color: #ffffff;
+}
+
+.involved-div1 {
+     width: 400px;
+    height: 400px;
+}
+.involved-div2 {
+     width: 400px;
+    height: 400px;
+}
+.involved-div3 {
+     width: 400px;
+    height: 400px;
+}
 }
