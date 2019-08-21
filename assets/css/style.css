@@ -223,6 +223,7 @@ footer {
 
 .social-heading {
     padding-top: 100px;
+    font-size: 25px;
 }
 
 .social-media i {
@@ -323,18 +324,19 @@ footer {
 }
 
 .involved-padding {
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 40px;
+    /*padding-top: 10px;*/
+    font-size: 14.3px;
 }
 
 
-
+.involved-margin {
+    margin-top: 40px;
+}
 
 
 .involved-span {
     width: 200px;
-    height: 200px;
+    height: 230px;
     background-color: #03A9F4;
     margin-top: 200px;
     color: #ffffff;
@@ -346,7 +348,7 @@ footer {
 
 .history-div {
     width: 300px;
-    margin-left: 50px;
+    margin-left: 40px;
     padding-top: 100px;
 }
 
@@ -473,10 +475,10 @@ footer {
 }
 
 .insta-div {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background-color: black;
-    margin: 40px;
+    margin-bottom: 40px;
 }
 
 /*---------------TIMELINE-------------*/
@@ -557,7 +559,7 @@ div#map {
 /*---MISC.--*/
 
 .my-block-divider {
-    width: 300px;
+    width: 250px;
     height: 3px;
     /*--- no outline on divider ---*/
     border: 0;
@@ -668,5 +670,23 @@ div#map {
 .involved-div3 {
      width: 400px;
     height: 400px;
+}
+
+.involved-padding {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 40px;
+}
+
+.my-block-divider {
+    width: 300px;
+   
+}
+
+.insta-div {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    margin: 40px;
 }
 }
