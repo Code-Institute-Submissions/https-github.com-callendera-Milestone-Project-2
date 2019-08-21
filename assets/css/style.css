@@ -95,7 +95,7 @@ footer {
 .my-navbar-nav {
     /*--- removes padding automatically set by bootstrap ---*/
     padding-left: 30px;
-    /*--- color of text white ---*/
+    background-color: #ffffff;
     
     
 }
@@ -127,7 +127,7 @@ footer {
     background: no-repeat center center;
     /*--- toggler 100% of toggler container ---*/
     background-size: 100% 100%;
-
+    
     /*--- color of text white ---*/
     color: black;
     /*--- removes margins automatically set by bootstrap ---*/
