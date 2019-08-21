@@ -487,9 +487,13 @@ footer {
     margin-top: 40px;
 }
 
+.map {
+    height: 200px;
+}
+
 div#map {
   
-    min-height: 300px;
+    min-height: 360px;
     
 }
 
