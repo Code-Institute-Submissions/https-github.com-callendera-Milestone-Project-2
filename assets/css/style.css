@@ -1,11 +1,15 @@
 /** {*/
+
 /*  background: #000 !important;*/
+
 /*  color: #0f0 !important;*/
+
 /*  outline: solid #f00 1px !important;*/
+
 /*}*/
 
-
 /*--Background Styles--*/
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
 
@@ -19,6 +23,7 @@ footer {
     color: #ffffff;
     font-size: 12px;
 }
+
 .contact-info {
     padding-top: 20px;
 }
@@ -40,7 +45,7 @@ footer {
     justify-content: center;
     /*--- the height that container will take up in the viewport ---*/
     height: 100vh;
-    
+
 }
 
 .involved-container {
@@ -86,9 +91,8 @@ footer {
     padding-right: 20px;
     padding-bottom: 0;
     padding-top: 0;
-    background-color: #ffffff; 
+    background-color: #ffffff;
     /*--- color of text white ---*/
-    
     height: 150px;
 }
 
@@ -96,8 +100,8 @@ footer {
     /*--- removes padding automatically set by bootstrap ---*/
     padding-left: 30px;
     background-color: #ffffff;
-    
-    
+
+
 }
 
 
@@ -127,7 +131,7 @@ footer {
     background: no-repeat center center;
     /*--- toggler 100% of toggler container ---*/
     background-size: 100% 100%;
-    
+
     /*--- color of text white ---*/
     color: black;
     /*--- removes margins automatically set by bootstrap ---*/
@@ -153,7 +157,7 @@ footer {
     border-color: #03A9F4;
     color: #03A9F4;
     font-weight: 800;
-    
+
 }
 
 .my-btn:hover {
@@ -169,8 +173,8 @@ footer {
 
 .my-involved-btn {
     background-color: #ffffff;
-    border-color:  #03A9F4;
-    color:  #03A9F4;
+    border-color: #03A9F4;
+    color: #03A9F4;
 }
 
 .my-involved-btn:hover {
@@ -204,10 +208,10 @@ footer {
 }
 
 .footer-social-media i {
-     /*---blue color--*/
+    /*---blue color--*/
     color: #03A9F4;
     font-size: 20px;
-   
+
 }
 
 .footer-social-media i:hover {
@@ -234,7 +238,7 @@ footer {
 }
 
 .social-media i:hover {
- /*--- color of background: darker green ---*/
+    /*--- color of background: darker green ---*/
     color: #2567ae;
     /*--- when mouse is hovered the button will transition for .40seconds to a darker green color. the color will gradually ease in and then ease out. ---*/
     transition: all 0.40s ease-in-out;
@@ -247,11 +251,12 @@ footer {
 
 .my-icon i {
     /*---blue color--*/
-     color:  #03A9F4;
+    color: #03A9F4;
     font-size: 50px;
 }
+
 .my-icon i:hover {
-     /*--- color of background: darker blue ---*/
+    /*--- color of background: darker blue ---*/
     color: #2567ae;
     /*--- when mouse is hovered the button will transition for .40seconds to a darker blue color. the color will gradually ease in and then ease out. ---*/
     transition: all 0.40s ease-in-out;
@@ -264,8 +269,8 @@ footer {
 /*--- Images ---*/
 
 .involved-div3 {
-    
-     background: url("../images/holding.jpg")no-repeat center center;
+
+    background: url("../images/holding.jpg")no-repeat center center;
     /*--- adjusts background for different browsers ---*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -278,14 +283,14 @@ footer {
     /*--- aligns and justifies text in container ---*/
     align-items: center;
     justify-content: center;
-    
+
     width: 300px;
     height: 300px;
 }
 
 .involved-div2 {
-    
-     background: url("../images/vendors.jpg")no-repeat center center;
+
+    background: url("../images/vendors.jpg")no-repeat center center;
     /*--- adjusts background for different browsers ---*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -298,14 +303,14 @@ footer {
     /*--- aligns and justifies text in container ---*/
     align-items: center;
     justify-content: center;
-    
+
     width: 300px;
     height: 300px;
 }
 
 .involved-div1 {
-    
-     background: url("../images/rainbow.jpg")no-repeat center center;
+
+    background: url("../images/rainbow.jpg")no-repeat center center;
     /*--- adjusts background for different browsers ---*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -318,7 +323,7 @@ footer {
     /*--- aligns and justifies text in container ---*/
     align-items: center;
     justify-content: center;
-    
+
     width: 300px;
     height: 300px;
 }
@@ -353,8 +358,8 @@ footer {
 }
 
 .group-image-div {
-    
-     background: url("../images/group.png")no-repeat center center;
+
+    background: url("../images/group.png")no-repeat center center;
     /*--- adjusts background for different browsers ---*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -367,11 +372,11 @@ footer {
     /*--- aligns and justifies text in container ---*/
     align-items: center;
     justify-content: center;
-    
+
     height: 300px;
     width: 800px;
     margin-left: ;
-    
+
 }
 
 .insta1 {
@@ -492,9 +497,9 @@ footer {
 }
 
 div#map {
-  
+
     min-height: 360px;
-    
+
 }
 
 .events-heading {
@@ -555,7 +560,7 @@ div#map {
     padding-top: 20px;
     padding-right: 50px;
     padding-bottom: 20px;
-    
+
     z-index: 2;
 }
 
@@ -587,7 +592,7 @@ div#map {
     margin-left: 25px;
     margin-top: 120px;
     font-size: 40px;
-    
+
 }
 
 .involved-container {
@@ -598,166 +603,203 @@ div#map {
     font-family: 'Amatic SC', cursive;
     font-size: 100px;
     padding-top: 100px;
-   
+
 }
 
 /*---Media Queries--*/
 
-@media (min-width: 576px){
+@media (min-width: 576px) {
     .my-navbar-nav {
-    padding-left: 0px;
+        padding-left: 0px;
+    }
+
+    .opaque-overlay {
+        height: 60vh;
+
+    }
+
+    .involved-container {
+        padding: 0px;
+    }
+
+    .my-jumbotron {
+        width: 500px;
+        margin-left: 38px;
+        margin-right: 38px;
+        margin-top: 90px;
+    }
+    .myform {
+        width: 400px;
+    }
+
+    .insta-div {
+        height: 130px;
+        width: 130px;
+        margin: 10px;
+    }
+
+    .insta-container {
+        margin: auto;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
 }
 
-.opaque-overlay {
-   height: 60vh;
+@media (min-width: 768px) {
+    
+     .insta-div {
+        height: 170px;
+        width: 170px;
+        margin: 10px;
+    }
 
-}
+    .insta-container {
+        margin: auto;
+        padding-left: 90px;
+        padding-right: 60px;
+    }
+    
+    .involved-span {
+        padding-top: 30px;
+        
+    }
+     .history-div {
+        width: 600px;
 
-.involved-container {
-    padding: 0px;
-}
+        padding-top: 150px;
 
-.my-jumbotron {
-    width: 500px;
-    margin-left: 38px;
-    margin-right: 38px;
-    margin-top: 90px;
-}
-.myform {
-    width: 400px;
-}
+    }
+    
+    .my-jumbotron {
+        width: 600px;
+        margin-left: 84px;
+        margin-right: 84px;
+        margin-top: 100px;
+    }
 
-.insta-div {
-   height: 130px;
-   width: 130px;
-    margin: 10px;
+    .myform {
+        width: 500px;
+        margin: auto;
+    }
 }
-
-.insta-container {
-    margin: auto;
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-}
-
 @media (min-width: 992px) {
 
-.my-jumbotron {
-    width: 900px;
-    margin-left: 46px;
-    margin-right: 46px;
-    margin-top: 85px;
-}
+    .my-jumbotron {
+        width: 900px;
+        margin-left: 46px;
+        margin-right: 46px;
+        margin-top: 85px;
+    }
 
-.myform {
-    width: 800px;
-}
+    .myform {
+        width: 800px;
+    }
 
-.involved-margin {
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 40px;
- 
-}
+    .involved-margin {
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-top: 40px;
 
-.involved-span {
-   padding-top: 30px;
-    background-color: #03A9F4;
-    margin-top: 200px;
-    color: #ffffff;
-}
+    }
 
-.history-div {
-    width: 600px;
-    
-    padding-top: 150px;
-    
-}
+    .involved-span {
+        padding-top: 30px;
+        background-color: #03A9F4;
+        margin-top: 200px;
+        color: #ffffff;
+    }
 
-.insta-div {
-   
-    margin: 40px;
-}
+    .history-div {
+        width: 600px;
 
+        padding-top: 150px;
 
-}
+    }
 
-@media (min-width: 1200px){
+    .insta-div {
 
-.opaque-overlay {
-   height: 90vh;
+        margin: 40px;
+    }
+
 
 }
 
-.my-jumbotron {
-    
-    width: 1150px;
-    margin: auto;
-    margin-top: 100px;
-    
-}
+@media (min-width: 1200px) {
+
+    .opaque-overlay {
+        height: 90vh;
+
+    }
+
+    .my-jumbotron {
+
+        width: 1150px;
+        margin: auto;
+        margin-top: 100px;
+
+    }
 
 
-.history-div {
-    width: 600px;
-    
-    padding-top: 150px;
-    margin: auto;
-}
+    .history-div {
+        width: 600px;
 
-
-
-.involved-margin {
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 40px;
- 
-}
+        padding-top: 150px;
+        margin: auto;
+    }
 
 
 
-.involved-span {
-   
-    background-color: #03A9F4;
-    margin-top: 200px;
-    color: #ffffff;
-}
+    .involved-margin {
+        margin-left: 250px;
+        margin-right: 250px;
+        margin-top: 40px;
 
-.involved-div1 {
-     width: 300px;
-    height: 300px;
-}
-.involved-div2 {
-     width: 300px;
-    height: 300px;
-}
-.involved-div3 {
-     width: 300px;
-    height: 300px;
-}
-
-.myform {
-    width: 1100px;
-    margin: auto;
-}
-
-.involved-padding {
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 40px;
-}
+    }
 
 
-.my-block-divider {
-    width: 300px;
-   
-}
 
-.insta-div {
-    width: 250px;
-    height: 250px;
-    background-color: black;
-    margin: 40px;
-}
+    .involved-span {
+
+        background-color: #03A9F4;
+        margin-top: 200px;
+        color: #ffffff;
+    }
+
+    .involved-div1 {
+        width: 300px;
+        height: 300px;
+    }
+    .involved-div2 {
+        width: 300px;
+        height: 300px;
+    }
+    .involved-div3 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .myform {
+        width: 1100px;
+        margin: auto;
+    }
+
+    .involved-padding {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 40px;
+    }
+
+
+    .my-block-divider {
+        width: 300px;
+
+    }
+
+    .insta-div {
+        width: 250px;
+        height: 250px;
+        background-color: black;
+        margin: 40px;
+    }
 }
