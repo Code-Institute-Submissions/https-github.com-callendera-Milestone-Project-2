@@ -18,9 +18,9 @@
     <!--links to my style sheet: style.css-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
+    
 
-    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
-    <script type="text/javascript">
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>    <script type="text/javascript">
         (function() {
             emailjs.init("user_92AoHT5tDuWzStBRMLqiD");
         })();
@@ -62,7 +62,7 @@
     <!--navbar-->
     <div class="container">
 
-        <form class="volunteer-form" id="volunteerForm" onsubmit="return sendMail(this);">
+        <form class="volunteer-form" id="volunteerForm">
             <div class="col-12 text-center app-heading">
                 <h2>Volunteer Application</h2>
             </div>
@@ -108,14 +108,7 @@
                 <textarea class="form-control" name="subscriber_message" id="subscribermessage" placeholder="Why do you want to volunteer for the Fayette County PRIDE Foundation? Which event are you interested in?" required></textarea>
 
             </div>
-            <div class="form-group">
-                <div class="form-check">
-                    <input class="form-check-input" name="subscribermessage" type="checkbox" id="gridCheck" required>
-                    <label class="form-check-label" for="gridCheck">
-        Receive email updates regarding volunteer events
-      </label>
-                </div>
-            </div>
+            
             <button type="submit" class="btn my-btn btn-primary">Submit Application</button>
         </form>
     </div>
@@ -126,10 +119,6 @@
     <script src="assets/js/sendApplication.js"></script>
 
 
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-    <!--script used for DOM manipulation in modal-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
 
     <!--positioning engine, used throughout webpage-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
@@ -140,6 +129,7 @@
     </div>
 
     <!-- Modal -->
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
 </body>
