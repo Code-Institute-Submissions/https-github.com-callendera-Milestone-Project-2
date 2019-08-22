@@ -551,10 +551,11 @@ div#map {
 
 .my-timeline {
     /*--- removes padding automatically set by bootstrap ---*/
-    padding-left: 80px;
+    padding-left: 100px;
     padding-top: 20px;
     padding-right: 50px;
     padding-bottom: 20px;
+    
     z-index: 2;
 }
 
@@ -616,12 +617,42 @@ div#map {
     padding: 0px;
 }
 
+.my-jumbotron {
+    width: 500px;
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-top: 90px;
+}
+.myform {
+    width: 400px;
+}
 
+.insta-div {
+   height: 130px;
+   width: 130px;
+    margin: 10px;
+}
+
+.insta-container {
+    margin: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+}
 
 }
 
 @media (min-width: 992px) {
 
+.my-jumbotron {
+    width: 900px;
+    margin-left: 46px;
+    margin-right: 46px;
+    margin-top: 85px;
+}
+
+.myform {
+    width: 800px;
+}
 
 .involved-margin {
     margin-left: 150px;
@@ -643,6 +674,12 @@ div#map {
     padding-top: 150px;
     
 }
+
+.insta-div {
+   
+    margin: 40px;
+}
+
 
 }
 
