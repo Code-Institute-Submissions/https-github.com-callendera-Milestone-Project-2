@@ -1,4 +1,4 @@
-var myform = $("form#volunteerForm");
+var volunteerForm = $("form#volunteerForm");
 volunteerForm.submit(function(event){
 	event.preventDefault();
 
@@ -7,8 +7,8 @@ volunteerForm.submit(function(event){
      return obj;
   }, {});
 
-  // Change to your service ID, or keep using the default service
-  var service_id = "default_service";
+
+  var service_id = "outlook";
 
   var template_id = "subscribe";
   volunteerForm.find("button").text("Sending...");
@@ -17,8 +17,8 @@ volunteerForm.submit(function(event){
        alert("Sent!");
        volunteerForm.find("button").text("Send");
      }, function(err) {
-       alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
-       myform.find("button").text("Send");
+      alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
+      volunteerForm.find("button").text("Send");
     });
 
   return false;

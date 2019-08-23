@@ -341,9 +341,9 @@ footer {
 
 .involved-span {
     width: 200px;
-    height: 230px;
+    height: 300px;
     background-color: #03A9F4;
-    margin-top: 200px;
+    margin: auto;
     color: #ffffff;
 }
 
@@ -647,8 +647,8 @@ div#map {
 }
 
 @media (min-width: 768px) {
-    
-     .insta-div {
+
+    .insta-div {
         height: 170px;
         width: 170px;
         margin: 10px;
@@ -659,18 +659,22 @@ div#map {
         padding-left: 90px;
         padding-right: 60px;
     }
-    
+
+    .involved-padding {
+        padding-top: 40px;
+    }
+
     .involved-span {
         padding-top: 30px;
-        
+
     }
-     .history-div {
+    .history-div {
         width: 600px;
 
         padding-top: 150px;
 
     }
-    
+
     .my-jumbotron {
         width: 600px;
         margin-left: 84px;
@@ -683,6 +687,7 @@ div#map {
         margin: auto;
     }
 }
+
 @media (min-width: 992px) {
 
     .my-jumbotron {
@@ -751,10 +756,10 @@ div#map {
 
 
     .involved-margin {
-        margin-left: 250px;
+        margin-left: 140px;
         margin-right: 250px;
         margin-top: 40px;
-
+        width: 850px;
     }
 
 

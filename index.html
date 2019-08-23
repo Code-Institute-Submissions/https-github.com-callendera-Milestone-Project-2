@@ -22,7 +22,7 @@
     <script type="text/javascript">
         (function() {
             emailjs.init("user_ulpDCWxP9ZbUHTNGzxtaF");
-            
+
         })();
     </script>
 
@@ -197,20 +197,20 @@
             <hr class="my-block-divider ">
             <p class="lead ">Sign-Up with your email address and receive Event updates, Sponsorship information, and Quarterly Newsletter.</p>
         </div>
-        <form class="myform" onsubmit="return sendMail(this);" method="POST">
+        <form class="myform" id="myform">
             <div class="row ">
                 <div class="col-6 my-text-box ">
-                    <input type="text " name="firstname" class="form-control " id="first" placeholder="First name " required>
+                    <input type="text " name="first" class="form-control " id="first" placeholder="First name " required>
                 </div>
                 <div class="col-6 my-text-box ">
-                    <input type="text " name="lastname" class="form-control " id="last" placeholder="Last name " required>
+                    <input type="text " name="last" class="form-control " id="last" placeholder="Last name " required>
                 </div>
                 <div class="col-12 my-text-box ">
-                    <input type="email " name="emailaddress" class="form-control " id="inputEmail3 " placeholder="Email " required>
+                    <input type="email " name="inputEmail3" class="form-control " id="inputEmail3 " placeholder="Email " required>
                 </div>
                 <div class="form-group col-12 my-text-box ">
 
-                    <textarea class="form-control " name="message" id="textarea " placeholder="What are you looking for? " rows="3 " required></textarea>
+                    <textarea class="form-control " name="textarea" id="textarea " placeholder="What are you looking for? " rows="3 " required></textarea>
                 </div>
                 <div class="col-12 ">
                     <button type="submit " class="btn btn-lg btn-primary my-btn ">Submit</button>
@@ -326,9 +326,6 @@
 
 
 
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDd_ADmYQKWo-a23McnGFRcXLkRrE61INI&callback=initMap"></script>
-    <script src="assets/js/map.js"></script>
     <!--contactinfo-->
     </div>
     <!--Modal 1-->
@@ -355,6 +352,14 @@
 
     <!--script used for DOM manipulation in modal-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script src="assets/js/moreInfo.js"></script>
+
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDd_ADmYQKWo-a23McnGFRcXLkRrE61INI&callback=initMap"></script>
+    <script src="assets/js/map.js"></script>
 
     <!--positioning engine, used throughout webpage-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
