@@ -24,6 +24,20 @@ footer {
     font-size: 12px;
 }
 
+.error-body {
+    background: url("../images/bounce.gif")repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+
+    overflow: hidden;
+
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
 .contact-info {
     padding-top: 20px;
 }
