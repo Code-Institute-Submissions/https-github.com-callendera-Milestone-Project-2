@@ -476,7 +476,7 @@ footer {
 }
 
 .insta-container {
-    padding-left: 90px;
+    padding-left: 85px;
 }
 
 .insta-div {
@@ -583,7 +583,7 @@ div#map {
 
 .myform {
     width: 250px;
-    margin-left: 40px;
+    margin: auto;
 }
 
 .my-jumbotron {
