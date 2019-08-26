@@ -36,6 +36,19 @@ The site is fully functional on all screen sizes with extensive testing for each
     Just like above, the user will fill out the form and send it. The message will appear that confirms the form is sent. The user will recieve an email from an organization member acknowledging the receipt of the subscription form and with the information requested.
     * I am a vendor who woud like to purchase a spot at an upcoming event. After coming to the landing page and scrolling down to the vendor application is available in a pinatble PDF version. A modal pulls up with an option to print the PDF.
     I click on the 'Print PDF' button and the PDF pulls up in the browser in a seperate tab.
+
+### Original Mockup
+
+![Original Mockup](https://raw.githubusercontent.com/callendera/Milestone-Project-2/master/assets/images/WF.jpg)
+ 
+### Revamped Mockup
+ 
+ ![Revamped Mockup](https://raw.githubusercontent.com/callendera/Milestone-Project-2/master/assets/images/WF1.png) 
+ ![Revamped Mockup](https://raw.githubusercontent.com/callendera/Milestone-Project-2/master/assets/images/WF2.png)
+ ![Revamped Mockup](https://raw.githubusercontent.com/callendera/Milestone-Project-2/master/assets/images/WF3.png)
+ ![Revamped Mockup](https://raw.githubusercontent.com/callendera/Milestone-Project-2/master/assets/images/WF4.png)
+ 
+
     
 
 
