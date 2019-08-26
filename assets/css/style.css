@@ -11,6 +11,7 @@
 /*--Background Styles--*/
 
 body {
+    /*--- basic styles for entire site, white background, black text ---*/
     font-family: 'Roboto Condensed', sans-serif;
 
     background-color: #ffffff;
@@ -19,16 +20,19 @@ body {
 }
 
 footer {
+    /*--- background is a darker grey to set it apart from te rest of webpage ---*/
     background-color: #686464;
     color: #ffffff;
     font-size: 12px;
 }
 
+/*--- sets background with rainbow gif in 404.html ---*/
 .error-body {
     background: url("../images/bounce.gif")repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    /*--- sets background for different browsers ---*/
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
     background-size: contain;
 
     overflow: hidden;
@@ -38,12 +42,9 @@ footer {
     height: 50vh;
 }
 
-.contact-info {
-    padding-top: 20px;
-}
 
 .callout-container {
-    /*--- sets background image for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
+    /*--- FOR ALL BACKGROUND CONTAINERS sets background image for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
     background: url("../images/crowd.jpg")no-repeat center center fixed;
     /*--- adjusts background for different browsers ---*/
     -webkit-background-size: cover;
@@ -78,7 +79,6 @@ footer {
 }
 
 .opaque-overlay {
-    /*---positioned relative to the nearest positioned ancestor---*/
     position: absolute;
     top: 0;
     left: 0;
@@ -96,7 +96,6 @@ footer {
 /*--Navbar Styles--*/
 
 .my-navbar {
-    font-family: 'Roboto Condensed', sans-serif;
 
     /*--- removes margins automatically set by bootstrap ---*/
     margin: 0;
@@ -121,7 +120,7 @@ footer {
 
 
 .my-nav-link {
-    /*--- color of text white ---*/
+    /*--- color of text ---*/
     color: black;
     /*--- color change transition when hovering over my-nav-link ---*/
     transition: all 0.40s ease-in-out;
@@ -141,24 +140,25 @@ footer {
     vertical-align: middle;
     /*--- content aligned according to parent element ---*/
     content: "";
-    /*--- toggler doesn't repeat and it center to container ---*/
+    /*--- toggler doesn't repeat and is center to container ---*/
     background: no-repeat center center;
     /*--- toggler 100% of toggler container ---*/
     background-size: 100% 100%;
 
-    /*--- color of text white ---*/
+    /*--- color of text ---*/
     color: black;
     /*--- removes margins automatically set by bootstrap ---*/
     margin-right: 30px;
 }
 
 .my-navbar-toggler-icon {
-    /*--- color of icon white ---*/
+    /*--- color of icon ---*/
     color: black;
 
 }
 
 .my-navbar-brand {
+    /*--- text appears if logo does not, font matches logo ---*/
     font-family: 'Amatic SC', cursive;
 
 }
@@ -194,7 +194,7 @@ footer {
 .my-involved-btn:hover {
     /*--- color of background: blue ---*/
     background-color: #03A9F4;
-    /*--- when mouse is hovered the button will transition for .40seconds to a darker green color. the color will gradually ease in and then ease out. ---*/
+    /*--- when mouse is hovered the button will transition for .40seconds to a darker blue color. the color will gradually ease in and then ease out. ---*/
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
@@ -202,9 +202,7 @@ footer {
     /*--- adjustments for each web browser ---*/
 }
 
-.app-heading {
-    padding-bottom: 30px;
-}
+
 
 
 .volunteer-form {
@@ -389,7 +387,7 @@ footer {
 
     height: 300px;
     width: 800px;
-    
+
 
 }
 
@@ -582,6 +580,16 @@ div#map {
 
 /*---MISC.--*/
 
+.app-heading {
+    /*--- application heading for volunteer.html page ---*/
+    padding-bottom: 30px;
+}
+
+.contact-info {
+    /*--- gives space at the top of the footer ---*/
+    padding-top: 20px;
+}
+
 .my-block-divider {
     width: 250px;
     height: 3px;
@@ -608,7 +616,7 @@ div#map {
 .my-jumbotron {
     height: 630px;
     width: 325px;
-    
+
     margin-left: 25.100px;
     margin-right: 25.100px;
     margin-top: 120px;
@@ -629,6 +637,8 @@ div#map {
 
 /*---Media Queries--*/
 
+    /*--- adjustemnts for different screensizes, small-->big all features tested on google chrome inspect ---*/
+
 @media (min-width: 576px) {
     .my-navbar-nav {
         padding-left: 0px;
@@ -644,11 +654,11 @@ div#map {
     .involved-container {
         padding: 0px;
     }
-    
+
     .involved-span {
         padding-top: 60px;
     }
-    
+
     .my-jumbotron {
         width: 500px;
         margin-left: 38px;
@@ -727,7 +737,7 @@ div#map {
     .myform {
         width: 800px;
     }
-    
+
     .my-navbar {
         font-size: 20px;
     }
