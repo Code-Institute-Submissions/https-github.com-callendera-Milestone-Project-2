@@ -217,6 +217,7 @@
             <hr class="my-block-divider">
             <p class="lead">Sign-Up with your email address and receive Event updates, Sponsorship information, and Quarterly Newsletter.</p>
         </div>
+        <!--my-form is a personal class and the id allows the form to be targetted by email.js-->
         <form class="myform" id="myform">
             <div class="row">
                 <div class="col-6 my-text-box">
@@ -259,6 +260,8 @@
                     <span class="sr-only ">Instagram</span></a></li>
             </ul>
         </div>
+        <!--insta-container, insta-div give unique/personalized class names for instagram pictures. each div is set with an a attribute to link to the specific image on the instagram page.
+        each image is set as a background image as well to prevent stretching to fit the div to provide a better UX-->
         <p>Fayette County PRIDE on Instagram</p>
         <div class="container insta-container">
             <div class="row">
@@ -349,6 +352,7 @@
     <!--contactinfo-->
     
     <!--Modal 1-->
+    <!--modal appears to allow vendors to print and fill out application to buy spots for our events-->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -373,10 +377,12 @@
     <!--script used for DOM manipulation in modal-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
+    <!--used for form submission js-->
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <script src="assets/js/moreInfo.js"></script>
-
+    
+    <!--script used for google map API-->
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDd_ADmYQKWo-a23McnGFRcXLkRrE61INI&callback=initMap"></script>
     <script src="assets/js/map.js"></script>
