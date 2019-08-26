@@ -206,15 +206,18 @@ footer {
 
 
 .volunteer-form {
+    /*---creates appropriate spacing for form--*/
     padding-top: 200px;
     padding-bottom: 100px;
 }
 
 .footer-NPO {
+    /*---NPO = NonProfit Organization--*/
     padding-top: 20px;
 }
 
 .footer-social-media {
+    /*---creates appropriate spacing for social links in footer--*/
     padding-left: 20px;
     padding-top: 20px;
 }
@@ -347,6 +350,7 @@ footer {
 
 
 .involved-margin {
+    /*---gives spacing between items (top and bottom) for involved section--*/
     margin-top: 40px;
 }
 
@@ -508,6 +512,7 @@ footer {
     height: 200px;
 }
 
+/*---piece of code given by Code Institue in module for Map API to make map appear--*/
 div#map {
 
     min-height: 360px;
