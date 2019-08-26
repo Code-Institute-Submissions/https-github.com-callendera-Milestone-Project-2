@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fayette County PRIDE</title>
 
-
+    <!--this code provides my font-->
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Roboto+Condensed:300&display=swap" rel="stylesheet">
 
     <!--this code provides my Icons-->
@@ -18,9 +18,10 @@
     <!--links to my style sheet: style.css-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-    
+    <!--script is for my email.js to submit volunteer application-->
 
-<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>    <script type="text/javascript">
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
         (function() {
             emailjs.init("user_92AoHT5tDuWzStBRMLqiD");
         })();
@@ -36,11 +37,12 @@
 
     <nav class="navbar navbar-light my-navbar navbar-expand-sm fixed-top">
         <a class="navbar-brand my-navbar-brand" href="index.html">
+            <!--this code provides our logo-->
     <img src="assets/images/logo.jpg" width="175" height="125" class="d-inline-block align-top" alt="Fayette County PRIDE logo">
   </a>
 
         <!--this code allows my navbar tp be compressed into a navbar toggler on smaller screen sizes-->
-                <button class="navbar-toggler ml-auto my-navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler ml-auto my-navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon my-navbar-toggler-icon"></span></button>
 
 
@@ -49,18 +51,18 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <!--these are my links to navigate you through the site-->
             <ul class="navbar-nav my-navbar-nav mr-auto justify-content-center">
-                
+
                 <li class="nav-item mr-2"><a class="nav-link my-nav-link" href="index.html#top">Home</a></li>
                 <li class="nav-item mr-2"><a class="nav-link my-nav-link" href="volunteer.html">Volunteer</a></li>
                 <li class="nav-item mr-6 "><a class="nav-link my-nav-link " href="index.html#learn">About Us</a></li>
                 <li class="nav-item mr-2"><a class="nav-link my-nav-link" href="index.html#events">Events</a></li>
                 <li class="nav-item mr-2"><a class="nav-link my-nav-link" href="index.html#subscribe">Sponsorship</a></li>
-                
-                
-                
+
+
+
             </ul>
 
-            
+
             <!--This code blocks the button and text from being shown on small screens, but appears on larger screen sizes-->
             <div class="d-none d-lg-block">
                 <!--gives the viewer the oportunity to become a sponsor while still browsing the site-->
@@ -71,8 +73,9 @@
     </nav>
     <!--navbar-->
     <div class="container">
-
+        <!--volunteer-form is a unique/personal class to provide style/sizing for form, id=volunteerform helps to target form for js-->
         <form class="volunteer-form" id="volunteerForm">
+            <!--app-heading give styles for the heading-->
             <div class="col-12 text-center app-heading">
                 <h2>Volunteer Application</h2>
                 <p>Get involved and join us in making history. Our work would not be possible without the help and passion of volunteers. We rely on you to make our vision a reality. Please fill out and submit the form below.</p>
@@ -119,12 +122,13 @@
                 <textarea class="form-control" name="subscriber_message" id="subscribermessage" placeholder="Why do you want to volunteer for the Fayette County PRIDE Foundation? Which event are you interested in?" required></textarea>
 
             </div>
-            
+            <!--my-btn is my personalized styles for all buttons to match theme of page-->
             <button type="submit" class="btn my-btn btn-primary">Submit Application</button>
         </form>
     </div>
-
-        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
+    <!--script for js used within page-->
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
 
@@ -138,8 +142,8 @@
     <!--script needed to link my bootstrap classes-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    
-    
+
+
 
     <!-- Modal -->
 
