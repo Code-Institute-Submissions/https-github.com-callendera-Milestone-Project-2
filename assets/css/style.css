@@ -689,7 +689,11 @@ div#map {
 }
 
 @media (min-width: 768px) {
-
+    
+     .group-image-div {
+        margin-top: 20px;
+    }
+    
     .insta-div {
         height: 170px;
         width: 170px;
@@ -731,7 +735,11 @@ div#map {
 }
 
 @media (min-width: 992px) {
-
+    
+     .group-image-div {
+        margin-top: 20px;
+    }
+    
     .my-jumbotron {
         width: 900px;
         margin-left: 46px;
@@ -790,7 +798,10 @@ div#map {
         margin-top: 100px;
 
     }
-
+    
+    .group-image-div {
+        margin-top: 20px;
+    }
 
     .history-div {
         width: 600px;
