@@ -113,30 +113,67 @@ The site is fully functional on all screen sizes with extensive testing for each
 * As a user I want to:
     * Make a Donation:
         * After coming to the landing page,
-        * click the donation button and perform the action through the GoFundMe page.
-        * The page opens in a seperate tab
+        * click the donation button 
+        * perform the action through the GoFundMe page.
+        * The page opens in a seperate tab.
         * You can also scroll down the landing page and come to another section with a button to open the GoFundMe.
         * it also opens into a seperate tab.
     * Find more information about the organization:
         * Upon landing on the home page,
-        * click the About Us option in the Navbar and it takes you to the "Making History, Advocating for Change" section.
-        * In that section there is a button that says 'Learn More' which will direct the user to the subscribe form where they can request more specific info.
+        * click the About Us option in the Navbar
+        * it takes you to the "Making History, Advocating for Change" section.
+        * In that section there is a button
+        * button says 'Learn More' which will direct the user to the subscribe form where they can request more specific info.
+            * The subscribe form:
+                * Has 4 boxes with placeholders that say First Name, Last Name, Email, and What are you looking for?
+                * the form is sent to the email address associated with the email.js account
         * after filling out the form and submitting it,
-        * the submit button says 'sending...' and then a message displays to say sent, 
+        * the submit button says 'sending...' and then a message displays that says sent, 
         * if the form fails to send it says 'message send failure'
         * The email.js for the form does not fail! everything works perfectly.
+        *  a return email is sent to the user telling them the message was received
     * Finding upcoming events
         * Come to the home page, use the events option in the Navbar
         * after being directed to the event timeline, the events are listed in chronological order. 
-        * At the bottom of the timeline, there is a google map API that give 3 markers to highlight where the events are being held
+        * At the bottom of the timeline, there is a google map API that gives 3 markers to highlight where the events are being held
         * there is also an option (in the form of a button) to receive event updates.
         * this directs you to the subscribe form to request the event updates.
         * after filling out the form and submitting it,
-        * the submit button says 'sending...' and then a message displays to say sent, 
+        * the submit button says 'sending...' and then a message displays that says sent, 
         * if the form fails to send it says 'message send failure'
         * The email.js for the form does not fail! everything works perfectly.
-
-
+        *  a return email is sent to the user telling them the message was received
+    * Volunteering
+        * After comming to the landing page and clicking the volunteer option in the navbar
+        * the user is directed to a new page solely for the volunteer application. 
+        * The Volunteer Application:
+            * Has 8 input spaces for First Name, Last Name, Email, Address, Address 2, city, state, zip, and a Message that says "Why do you want to volunteer for Fayette County PRIDE Foundation? What event are you interested in?"
+            * The button says 'Submit Application'
+            * after filling out the form and submitting it,
+            * the submit button says 'sending...' and then a message displays that says sent, 
+            * if the form fails to send it says 'message send failure'
+            * The email.js for the form does not fail! everything works perfectly.
+            *  a return email is sent to the user telling them the message was received
+    * Sponsorship details
+        * After landing on the home page, click the sponsorship link in the navbar.
+        * the link will direct you to the subscribe jumbotron to request the information you wanted.
+        * after filling out the form and submitting it,
+            * the submit button says 'sending...' and then a message displays that says sent, 
+            * if the form fails to send it says 'message send failure'
+            * The email.js for the form does not fail! everything works perfectly.
+            * a return email is sent to the user telling them the message was received
+    * Vendor Application
+        * come to the landing page, scroll down tot the vendors section and click the button that says learn more
+        * this opens a modal and the modal has an option to print PDF
+        * when you click print PDF a seperate tab opens to present the PDF to be printed.
+    * Checking out Social media 
+        * After making it to the landing page 
+        * scroll down to the social media section
+        * there are links to each of our social media accounts.
+        * each link opens into a seperate tab.
+        * below that I am highlighting our Instagram account in a small photo gallery.
+        * Those images are also linked to the individual post on our instagram page. 
+        * they open into a seperate tab.
 
 
 
