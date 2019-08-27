@@ -102,7 +102,39 @@ The site is fully functional on all screen sizes with extensive testing for each
 * [JavaScript](https://www.javascript.com/)
     * Google Map API, Email.js for form submission, and modal/bootstrap provided javascript
 
+## Testing
+### Automated Testing
+* Validation Services
+    * [W3C Markup Validator](https://validator.w3.org/) was used to validate my HTML code.
+    * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate my CSS code.
+    * [JS Fiddle](https://jsfiddle.net/api/post/library/pure/) was used to test my Email.js code for both of my forms.
 
+### UX stories testing
+* As a user I want to:
+    * Make a Donation:
+        * After coming to the landing page,
+        * click the donation button and perform the action through the GoFundMe page.
+        * The page opens in a seperate tab
+        * You can also scroll down the landing page and come to another section with a button to open the GoFundMe.
+        * it also opens into a seperate tab.
+    * Find more information about the organization:
+        * Upon landing on the home page,
+        * click the About Us option in the Navbar and it takes you to the "Making History, Advocating for Change" section.
+        * In that section there is a button that says 'Learn More' which will direct the user to the subscribe form where they can request more specific info.
+        * after filling out the form and submitting it,
+        * the submit button says 'sending...' and then a message displays to say sent, 
+        * if the form fails to send it says 'message send failure'
+        * The email.js for the form does not fail! everything works perfectly.
+    * Finding upcoming events
+        * Come to the home page, use the events option in the Navbar
+        * after being directed to the event timeline, the events are listed in chronological order. 
+        * At the bottom of the timeline, there is a google map API that give 3 markers to highlight where the events are being held
+        * there is also an option (in the form of a button) to receive event updates.
+        * this directs you to the subscribe form to request the event updates.
+        * after filling out the form and submitting it,
+        * the submit button says 'sending...' and then a message displays to say sent, 
+        * if the form fails to send it says 'message send failure'
+        * The email.js for the form does not fail! everything works perfectly.
 
 
 
