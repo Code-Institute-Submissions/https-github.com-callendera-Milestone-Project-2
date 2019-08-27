@@ -111,8 +111,9 @@ footer {
 
 .my-navbar-nav {
     /*--- removes padding automatically set by bootstrap ---*/
-    padding-left: 30px;
+   
     background-color: #ffffff;
+   
 
 
 }
@@ -122,6 +123,9 @@ footer {
 .my-nav-link {
     /*--- color of text ---*/
     color: black;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    margin-left: 20px;
     /*--- color change transition when hovering over my-nav-link ---*/
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;

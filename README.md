@@ -175,6 +175,12 @@ The site is fully functional on all screen sizes with extensive testing for each
         * Those images are also linked to the individual post on our instagram page. 
         * they open into a seperate tab.
 
+## Manual Testing 
+
+### Desktop, Tablet, and Mobile
+All features were tested on Google Chrome, Internet Explorer, and Firefox. Mobile/Tablet features were tested on Apple and Samsung devices. Everything was tested using a wide range of screensizes.
+* Navbar
+    * 
 
 
 
