@@ -759,7 +759,7 @@ div#map {
         width: 800px;
     }
 
-    .my-navbar {
+    .my-nav-link {
         font-size: 20px;
     }
 
@@ -793,6 +793,10 @@ div#map {
 }
 
 @media (min-width: 1200px) {
+
+    .my-nav-link {
+        font-size: 30px;
+    }
 
     .opaque-overlay {
         height: 90vh;
