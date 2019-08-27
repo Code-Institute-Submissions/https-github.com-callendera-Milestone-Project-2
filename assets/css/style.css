@@ -649,11 +649,15 @@ div#map {
     /*--- adjustemnts for different screensizes, small-->big all features tested on google chrome inspect ---*/
 
 @media (min-width: 576px) {
-    .my-navbar-nav {
-        padding-left: 0px;
+    .my-nav-link {
+        font-size: 16px;
+        font-weight: bold;
     }
-    .my-navbar {
-        font-size: 13px;
+    .my-navbar-nav {
+        margin-left: 0;
+    }
+    .my-navbar-brand {
+        margin: 0;
     }
     .opaque-overlay {
         height: 60vh;

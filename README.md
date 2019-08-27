@@ -180,7 +180,25 @@ The site is fully functional on all screen sizes with extensive testing for each
 ### Desktop, Tablet, and Mobile
 All features were tested on Google Chrome, Internet Explorer, and Firefox. Mobile/Tablet features were tested on Apple and Samsung devices. Everything was tested using a wide range of screensizes.
 * Navbar
-    * 
+    * Fixed to the top of the page so, to navigate throughout the site 
+    * Appears with the intended White background and font style 'Amatic SC, cursive'
+    * Displays NavBrand labeled with the organization logo when clicked it links back to the Landing page
+    * The NavItems appear in order: Home | Volunteer | About Us | Events | Sponsorship
+        * They have the color of a grey white until hovered over, they turn into a darker black to match the NavBrand to let the user know it can be clicked. 
+        * When any of the NavItems are clicked they navigate you to the correct place on the page.
+            * Home --> Landing Page
+            * Volunteer --> Volunteer application page
+            * About Us --> "Making History, Advocating for Change" section
+            * Events --> Event timeline, Map API
+            * Sponsorship --> Subscription page
+        * All NavItems displayed appear in a Navbar Toggler starting after 576px
+            * The Items listed above are displayed in the same order when the toggler smoothly drops down.
+            * After clicking the toggler and selecting the section the user is interested in visiting the toggler remains open until it is closed by clicking the toggler again.
+    * On the right of the NavBar a button is displayed that says 'Donate'
+        * 'Donate' turns blue when hovered to let the user know it can be clicked.
+            * After clicking the 'Donate' button, a new tab opens to the GoFundMe page.
+        * This part of the Navbar disapears starting at 768px.
+            * Making that disapear makes the navbar look better in the smaller screen sizes.
 
 
 
