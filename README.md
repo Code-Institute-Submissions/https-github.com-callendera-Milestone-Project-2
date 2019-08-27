@@ -200,7 +200,37 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Mobil
         * This part of the Navbar disapears starting at 768px.
             * Making that disapear makes the navbar look better in the smaller screen sizes.
 
-
+* Callout
+    * This section is just a background image, crowd.jpg, that is in a fixed position for the rest of the webpage to scroll past it.
+* Involved section
+    * This section give 3 option to get involved and help our organization by volunteering, being a vendor at an event, or donations.
+    * Each section has 2 boxes, 1 is an image:
+        * Volunteer --> rainbow.jpg
+        * Vendor Application --> vendors.jpg
+        * Donate --> holding.jpg
+    * The other box is a blue div that contains a bit of description for each option and a button
+        * The button is white and turns blue to match the background of the div.
+        * Volunteer --> opens to the volunteer application page.
+        * Vendor Application --> opens Modal 
+            * Modal: 
+                * The Modal is triggered after the button in the Vendor Application is triggered
+                * The Modal appears and darkens the screen behind it.
+                * The structure is as follows:
+                    * Modal Title:'Vendors'
+                    * Modal Body: 'Please print Vendor Application PDF'
+                    * Dark grey 'close' button, and white 'Print PDF' button that changes to blue when hovered
+                * When you click the 'Print PDF' a seperate tab opens with the ability to print the PDF
+        * Donate --> opens the GoFundMe page to facilitate the donation
+    * Each subsection is arranged in a stairstep position and aligned with the following or preceding section on the browser 1200px and bigger, everynother smaller screensize has them aligned side by side.
+    * All images and divs adjust well with screensizes as outlined in my Media Queries
+* About 
+    * This section have a heading "Making History, Advocating for Change" that is underlined by a yellow block divider. 
+    * The heading is followed by a short paragraph that gives a breif description of our work.
+    * Following is a button that is white and changes to blue when hovered. 
+    * That button leads to the subscription form where the user can request further information about the organization.
+* Events
+    *
+    
 
 
 
