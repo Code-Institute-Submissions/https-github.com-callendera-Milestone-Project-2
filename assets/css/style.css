@@ -1,12 +1,4 @@
-/** {*/
 
-/*  background: #000 !important;*/
-
-/*  color: #0f0 !important;*/
-
-/*  outline: solid #f00 1px !important;*/
-
-/*}*/
 
 /*--Background Styles--*/
 
@@ -207,48 +199,6 @@ footer {
 }
 
 
-
-
-.volunteer-form {
-    /*---creates appropriate spacing for form--*/
-    padding-top: 200px;
-    padding-bottom: 100px;
-}
-
-.footer-NPO {
-    /*---NPO = NonProfit Organization--*/
-    padding-top: 20px;
-}
-
-.footer-social-media {
-    /*---creates appropriate spacing for social links in footer--*/
-    padding-left: 20px;
-    padding-top: 20px;
-}
-
-.footer-social-media i {
-    /*---blue color--*/
-    color: #03A9F4;
-    font-size: 20px;
-
-}
-
-.footer-social-media i:hover {
-    /*--- color of background: darker green ---*/
-    color: #2567ae;
-    /*--- when mouse is hovered the button will transition for .40seconds to a darker green color. the color will gradually ease in and then ease out. ---*/
-    transition: all 0.40s ease-in-out;
-    -moz-transition: all 0.40s ease-in-out;
-    -webkit-transition: all 0.40s ease-in-out;
-    -o-transition: all 0.40s ease-in-out;
-    /*--- adjustments for each web browser ---*/
-}
-
-.social-heading {
-    padding-top: 100px;
-    font-size: 25px;
-}
-
 .social-media i {
     /*---blue color--*/
     color: #03A9F4;
@@ -284,6 +234,69 @@ footer {
     -o-transition: all 0.40s ease-in-out;
     /*--- adjustments for each web browser ---*/
 }
+
+/*---Forms---*/
+
+.volunteer-form {
+    /*---creates appropriate spacing for form--*/
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.my-text-box {
+    padding: 25px;
+}
+
+.myform {
+    width: 250px;
+    margin: auto;
+}
+
+.my-jumbotron {
+    height: 680px;
+    width: 325px;
+
+    margin-left: 25.100px;
+    margin-right: 25.100px;
+    margin-top: 120px;
+    font-size: 40px;
+
+}
+
+/*---Footer--*/
+
+.footer-NPO {
+    /*---NPO = NonProfit Organization--*/
+    padding-top: 20px;
+}
+
+.footer-social-media {
+    /*---creates appropriate spacing for social links in footer--*/
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.footer-social-media i {
+    /*---blue color--*/
+    color: #03A9F4;
+    font-size: 20px;
+
+}
+
+.footer-social-media i:hover {
+    /*--- color of background: darker green ---*/
+    color: #2567ae;
+    /*--- when mouse is hovered the button will transition for .40seconds to a darker green color. the color will gradually ease in and then ease out. ---*/
+    transition: all 0.40s ease-in-out;
+    -moz-transition: all 0.40s ease-in-out;
+    -webkit-transition: all 0.40s ease-in-out;
+    -o-transition: all 0.40s ease-in-out;
+    /*--- adjustments for each web browser ---*/
+}
+
+
+
+
 
 /*--- Images ---*/
 
@@ -367,9 +380,7 @@ footer {
     color: #ffffff;
 }
 
-.event-container {
-    padding-top: 80px;
-}
+
 
 .history-div {
     width: 300px;
@@ -506,7 +517,16 @@ footer {
     margin-bottom: 40px;
 }
 
+.my-fancy-gallery {
+    margin: auto;
+}
+
+
 /*---------------TIMELINE-------------*/
+
+.event-container {
+    padding-top: 80px;
+}
 
 .time-map-margin {
     margin-top: 40px;
@@ -517,7 +537,7 @@ footer {
 }
 
 /*---piece of code given by Code Institue in module for Map API to make map appear--*/
-div#map {
+#map {
 
     min-height: 360px;
 
@@ -585,13 +605,20 @@ div#map {
     z-index: 2;
 }
 
-
+.my-alert {
+    color: #ffeb3b;
+    font-weight: bold;
+     font-size: 15px;
+}
 
 /*---MISC.--*/
 
-.my-alert {
-    font-size: 15px;
+.social-heading {
+    padding-top: 100px;
+    font-size: 25px;
 }
+
+
 
 .app-heading {
     /*--- application heading for volunteer.html page ---*/
@@ -612,30 +639,9 @@ div#map {
     background-color: #ffeb3b;
 }
 
-.my-alert {
-    color: #ffeb3b;
-    font-weight: bold;
-}
 
-.my-text-box {
-    padding: 25px;
-}
 
-.myform {
-    width: 250px;
-    margin: auto;
-}
 
-.my-jumbotron {
-    height: 680px;
-    width: 325px;
-
-    margin-left: 25.100px;
-    margin-right: 25.100px;
-    margin-top: 120px;
-    font-size: 40px;
-
-}
 
 .involved-container {
     padding: 0px;
@@ -648,13 +654,8 @@ div#map {
 
 }
 
-/*.my-fancybox {*/
-/*    margin-bottom: 40px;*/
-/*}*/
 
-.my-fancy-gallery {
-    margin: auto;
-}
+
 
 /*---Media Queries---*/
     /*--- adjustemnts for different screensizes, small-->big all features tested on google chrome inspect ---*/
