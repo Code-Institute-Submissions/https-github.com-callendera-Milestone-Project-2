@@ -26,6 +26,8 @@
 
         })();
     </script>
+    
+   
     <!--CSS from Fancybox-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 </head>
@@ -50,11 +52,11 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <!--these are my links to navigate you through the site-->
             <ul class="navbar-nav my-navbar-nav mr-auto justify-content-center">
-                <li class="nav-item"><a class="nav-link my-nav-link" href="#top">Home</a></li>
-                <li class="nav-item"><a class="nav-link my-nav-link" href="volunteer.html">Volunteer</a></li>
-                <li class="nav-item"><a class="nav-link my-nav-link " href="#learn">About</a></li>
-                <li class="nav-item"><a class="nav-link my-nav-link" href="#events">Events</a></li>
-                <li class="nav-item"><a class="nav-link my-nav-link" href="#subscribe">Sponsorship</a></li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link my-nav-link" href="#top">Home</a></li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link my-nav-link" href="volunteer.html">Volunteer</a></li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link my-nav-link" href="#learn">About</a></li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link my-nav-link" href="#events">Events</a></li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link my-nav-link"href="#subscribe">Sponsorship</a></li>
 
 
 
@@ -66,7 +68,8 @@
                 <a href="https://www.gofundme.com/f/fayette-county-pride-2019" class="btn btn-lg my-nav-btn btn-success my-btn" target="_blank">Donate</a>
             </div>
         </div>
-    </nav>
+
+</nav>
     <!--to target the top of the page when using navbar navs-->
     <div id="top"></div>
     <!--navbar-->
@@ -179,26 +182,29 @@
                 <!--my-timeline-item is my class name to allow my own personal style for each timeline item. The date is then given in the div to  allow the timeline to occur in order from earliest date to latest date-->
                 <div class="timeline-item my-timeline-item" data-dates="Saturday 06 June 2020">
                     <br>
+                    
                     <h4>Fayette County PRIDE Festival</h4>
                     <p>Salty Broads Patio. 216 E. Court Street Washington Court House, OH</p>
-
+                    <h3>A</h3>
 
                 </div>
 
                 <div class="timeline-item my-timeline-item" data-dates="Saturday 20 June 2020">
                     <br>
+                    
                     <h4>Walk for Equality</h4>
                     <p>Gardner Park. W Circle Avenue Washington Court House, OH</p>
-
+                    <h3>B</h3>
 
                 </div>
 
                 <!--my-timeline-item is my class name to allow my own personal style for each timeline item. The date is then given in the div to allow the timeline to occur in order from earliest date to latest date-->
                 <div class="timeline-item my-timeline-item" data-dates="Saturday 27 June 2020">
                     <br>
+                    
                     <h4> LGBTQ+ Gala</h4>
                     <p>The Crown Room. 1801 Columbus Avenue Washington Court House, OH</p>
-
+                    <h3>C</h3>
                     <!--this alert tell the user when they can purchase tickets.-->
                     <div class="alert my-alert" role="alert">
                         Tickets go on sale April 20th, 2020!
