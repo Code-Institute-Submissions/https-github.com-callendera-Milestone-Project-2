@@ -78,8 +78,8 @@ The site is fully functional on all screen sizes with extensive testing for each
     * The user will receive an email with the appropriate information shortly after submitting the form.
 * Social links
     * Links to Facebook, Twitter, and Instagram are included that open into seperate tag.
-    * Instagram is highlighted in this section to display out instagram photogallery. 
-    * each image can be clicked and it will open that image in our instagram page to encourage the user to visit our instagram page.
+    * Instagram is highlighted in this section to display our instagram photogallery. 
+    * each image can be clicked and it will open that image in a fancybox photo gallery.
 * Footer
     * This area gives business creditials(501(c)3 non-profit organization), address/phone number, and our social links once again.
     * this encourages a user who is just looking for our contact information to scroll through the entire page and discover something they didn't know they were looking for.
@@ -243,7 +243,13 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Mobil
 * Jumbotron
     * The Jumbotrons heading says Subscription, it is underlined with a yellow block divider, this encourages the user to request more information for a wide variety of things. 
     * The inputs for the form are: First Name, Last Name, Email, And a Message 'What are you looking for?'
-    * The form's inputs are all required, after submitting the form with all feilds appropriately filled out,
+    * The form's inputs are all required, after submitting the form with all feilds appropriately filled out, the button says 'sending...' and then a message appears that says the message is sent. 
+    * A return email confirming the message has been received is then sent to the user.
+* Social media
+    * The 1st heading invites the user to follow us on our social media sites. 
+    * A link to our facebook, twitter, and instagram are given just bellow the header.
+    * we then wanted to highlight our instagram page by shareing our images in a photogallery.
+    * each image can be clicked and opened into a photogallery with options to scroll through images, play slide show or zoom.
     
 
 
