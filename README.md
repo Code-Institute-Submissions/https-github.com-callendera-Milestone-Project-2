@@ -252,7 +252,42 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Mobil
     * each image can be clicked and opened into a photogallery with options to scroll through images, play slide show or zoom.
 * Footer
     * The footer contains our contact information, a small snippet of what type of non-profit we are and our 3 social links once again
-    
+### Bugs Discovered
+* Solved Bugs:
+    * Email.js sending blank emails
+        * the inputs of the forms had incorrect id names
+        * the {{from email}} was in the To_Email spot
+    * Navbar toggler not dissappearing after click on link 
+        * Added data-toggle="collapse" data-target=".navbar-collapse.show" to li 
+
+### Further Testing
+
+* Asked fellow students and mentor to look at my webpage on a range of devices to report any bugs found.
+
+## Deployment
+
+1. I logged into my GitHub
+2. Navigated to my GitHub repository
+3. Clicked on my 'Milestone Project 2' 
+4. Beneath the repository name click the 'Settings' button
+5. I scrolled down to the 'GitHub Pages' section 
+6. I then selected the 'Master Branch' located under the 'Source' section
+7. Finally I hit save
+8. My site was published at https://callendera.github.io/Milestone-Project-2/
+
+## Credits
+
+### Content
+* All text was derived directly from myself and my fellow organization member, Erin Munoz
+
+### Media
+* The photos used in my webpage were from Google Images, and my own images
+
+
+### Acknowledgements
+* I recieved inspiration for this project from The Code Institute's Guidlines for Milestone Project 2, and
+* Fellow organization member, Erin Munoz 
+
 
 
 
