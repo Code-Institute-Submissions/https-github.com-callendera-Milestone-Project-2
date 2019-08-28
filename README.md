@@ -250,6 +250,8 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Mobil
     * A link to our facebook, twitter, and instagram are given just bellow the header.
     * we then wanted to highlight our instagram page by shareing our images in a photogallery.
     * each image can be clicked and opened into a photogallery with options to scroll through images, play slide show or zoom.
+* Footer
+    * The footer contains our contact information, a small snippet of what type of non-profit we are and our 3 social links once again
     
 
 
