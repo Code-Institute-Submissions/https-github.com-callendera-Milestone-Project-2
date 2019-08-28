@@ -36,7 +36,9 @@ footer {
 
 
 .callout-container {
-    /*--- FOR ALL BACKGROUND CONTAINERS sets background image for callout container. it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
+    /*--- FOR ALL BACKGROUND CONTAINERS sets background image for callout container. 
+    it is set to not repeat, so the image doesnt stretch, and the image will be centered horizontally and 
+    pushed to the top of the container. the background will also not scroll, but remained positioned so things will scroll past it---*/
     background: url("../images/crowd.jpg")no-repeat center center fixed;
     /*--- adjusts background for different browsers ---*/
     -webkit-background-size: cover;
@@ -92,10 +94,8 @@ footer {
     /*--- removes margins automatically set by bootstrap ---*/
     margin: 0;
     /*--- removes padding automatically set by bootstrap ---*/
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 0;
-    padding-top: 0;
+    padding: 0px 20px 0px 20px;
+
     background-color: #ffffff;
     /*--- color of text white ---*/
     height: 150px;
@@ -105,9 +105,6 @@ footer {
     /*--- removes padding automatically set by bootstrap ---*/
    
     background-color: #ffffff;
-   
-
-
 }
 
 
@@ -173,7 +170,8 @@ footer {
 .my-btn:hover {
     /*--- color of background: blue ---*/
     background-color: #03A9F4;
-    /*--- when mouse is hovered the button will transition for .40seconds to a darker green color. the color will gradually ease in and then ease out. ---*/
+    /*--- when mouse is hovered the button will transition for 
+    .40seconds to a darker green color. the color will gradually ease in and then ease out. ---*/
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
@@ -190,7 +188,8 @@ footer {
 .my-involved-btn:hover {
     /*--- color of background: blue ---*/
     background-color: #03A9F4;
-    /*--- when mouse is hovered the button will transition for .40seconds to a darker blue color. the color will gradually ease in and then ease out. ---*/
+    /*--- when mouse is hovered the button will transition for .40seconds to a darker blue color.
+    the color will gradually ease in and then ease out. ---*/
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
@@ -209,7 +208,8 @@ footer {
 .social-media i:hover {
     /*--- color of background: darker green ---*/
     color: #2567ae;
-    /*--- when mouse is hovered the button will transition for .40seconds to a darker green color. the color will gradually ease in and then ease out. ---*/
+    /*--- when mouse is hovered the button will transition for 
+    .40seconds to a darker green color. the color will gradually ease in and then ease out. ---*/
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
@@ -227,7 +227,8 @@ footer {
 .my-icon i:hover {
     /*--- color of background: darker blue ---*/
     color: #2567ae;
-    /*--- when mouse is hovered the button will transition for .40seconds to a darker blue color. the color will gradually ease in and then ease out. ---*/
+    /*--- when mouse is hovered the button will transition for .40seconds to a darker blue color. 
+    the color will gradually ease in and then ease out. ---*/
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
@@ -286,7 +287,8 @@ footer {
 .footer-social-media i:hover {
     /*--- color of background: darker green ---*/
     color: #2567ae;
-    /*--- when mouse is hovered the button will transition for .40seconds to a darker green color. the color will gradually ease in and then ease out. ---*/
+    /*--- when mouse is hovered the button will transition for .40seconds to a darker green color.
+    the color will gradually ease in and then ease out. ---*/
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
@@ -597,10 +599,7 @@ footer {
 
 .my-timeline {
     /*--- removes padding automatically set by bootstrap ---*/
-    padding-left: 100px;
-    padding-top: 20px;
-    padding-right: 50px;
-    padding-bottom: 20px;
+    padding: 20px 50px 20px 100px;
 
     z-index: 2;
 }
@@ -658,7 +657,8 @@ footer {
 
 
 /*---Media Queries---*/
-    /*--- adjustemnts for different screensizes, small-->big all features tested on google chrome inspect ---*/
+    /*--- adjustemnts for different screensizes, 
+    small-->big all features tested on google chrome inspect ---*/
 
 @media (min-width: 576px) {
     .my-nav-link {
@@ -852,18 +852,11 @@ footer {
         color: #ffffff;
     }
 
-    .involved-div1 {
+    .involved-div1, .involved-div2, .involved-div3 {
         width: 300px;
         height: 300px;
     }
-    .involved-div2 {
-        width: 300px;
-        height: 300px;
-    }
-    .involved-div3 {
-        width: 300px;
-        height: 300px;
-    }
+    
 
     .myform {
         width: 1100px;
