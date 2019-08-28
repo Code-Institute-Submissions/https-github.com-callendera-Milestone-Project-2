@@ -101,6 +101,8 @@ The site is fully functional on all screen sizes with extensive testing for each
     * The project uses JQuery for DOM manipulation (Ex: Modal)
 * [JavaScript](https://www.javascript.com/)
     * Google Map API, Email.js for form submission, and modal/bootstrap provided javascript
+* [Fancybox](http://fancybox.net/)
+    * Used for Instagram photogallery
 
 ## Testing
 ### Automated Testing
