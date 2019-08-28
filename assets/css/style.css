@@ -589,6 +589,10 @@ div#map {
 
 /*---MISC.--*/
 
+.my-alert {
+    font-size: 15px;
+}
+
 .app-heading {
     /*--- application heading for volunteer.html page ---*/
     padding-bottom: 30px;
@@ -623,7 +627,7 @@ div#map {
 }
 
 .my-jumbotron {
-    height: 630px;
+    height: 680px;
     width: 325px;
 
     margin-left: 25.100px;
@@ -644,8 +648,15 @@ div#map {
 
 }
 
-/*---Media Queries--*/
+/*.my-fancybox {*/
+/*    margin-bottom: 40px;*/
+/*}*/
 
+.my-fancy-gallery {
+    margin: auto;
+}
+
+/*---Media Queries---*/
     /*--- adjustemnts for different screensizes, small-->big all features tested on google chrome inspect ---*/
 
 @media (min-width: 576px) {

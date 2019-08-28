@@ -202,6 +202,7 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Mobil
 
 * Callout
     * This section is just a background image, crowd.jpg, that is in a fixed position for the rest of the webpage to scroll past it.
+    
 * Involved section
     * This section give 3 option to get involved and help our organization by volunteering, being a vendor at an event, or donations.
     * Each section has 2 boxes, 1 is an image:
@@ -223,13 +224,26 @@ All features were tested on Google Chrome, Internet Explorer, and Firefox. Mobil
         * Donate --> opens the GoFundMe page to facilitate the donation
     * Each subsection is arranged in a stairstep position and aligned with the following or preceding section on the browser 1200px and bigger, everynother smaller screensize has them aligned side by side.
     * All images and divs adjust well with screensizes as outlined in my Media Queries
+    
 * About 
     * This section have a heading "Making History, Advocating for Change" that is underlined by a yellow block divider. 
     * The heading is followed by a short paragraph that gives a breif description of our work.
     * Following is a button that is white and changes to blue when hovered. 
     * That button leads to the subscription form where the user can request further information about the organization.
+    
 * Events
-    *
+    * In this section The title 'Upcoming Events' is underlined with a blovk divider
+    * Bellow that there is a white button, that when its hovered turns blue, it says "Get Event Updates": this button directs you to the subscription form.
+    * The Time Line appears in chronological order.
+    * The timeline has with the City and place for each concert. 
+    * a small alert is at the end of the LGBTQ Gala to let the user know when the tickets go on sale 
+    * All timeline items are centered, except on Mobile view, those are placed to the left for a better UX.
+    * The Map API is located below the timeline. It's size adjusts well with each screensize
+    
+* Jumbotron
+    * The Jumbotrons heading says Subscription, it is underlined with a yellow block divider, this encourages the user to request more information for a wide variety of things. 
+    * The inputs for the form are: First Name, Last Name, Email, And a Message 'What are you looking for?'
+    * The form's inputs are all required, after submitting the form with all feilds appropriately filled out,
     
 
 

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fayette County PRIDE</title>
-   
+
     <!--this code provides my font-->
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Roboto+Condensed:300&display=swap" rel="stylesheet">
 
@@ -26,7 +26,8 @@
 
         })();
     </script>
-
+    <!--CSS from Fancybox-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 </head>
 
 <body>
@@ -152,14 +153,15 @@
             <div class="col-12 history-col">
                 <h2>Making History, Advocating for Change.</h2>
                 <hr class="my-block-divider">
-                <p>Our work is grounded in social and economical equality for people of all walks of life. The LGBTQ+ community is increasingly marginalized and stiffled, and we are here to advocate for our community. </p> <a class="btn btn-sm my-nav-btn btn-success my-involved-btn" href="#subscribe">Learn More</a>
+                <p>Our work is grounded in social and economical equality for people of all walks of life. The LGBTQ+ community is increasingly marginalized and stiffled, and we are here to advocate for our community. </p> <a class="btn btn-sm my-nav-btn btn-success my-involved-btn"
+                    href="#subscribe">Learn More</a>
             </div>
         </div>
         <!--sets bachground image to prevent stretching and provides a better UX-->
         <div class="col group-image-div">
 
         </div>
-        
+
 
     </div>
     <!--targets this section when navigating using navbar-nav Events-->
@@ -212,8 +214,8 @@
     </div>
     <!--is targetted by the navbar-nav link sponsorship-->
     <div id="subscribe"></div>
-    
-    
+
+
     <!--my-jumbotron is a personal/unique class name to add style to the jumbotron on top of bootstrap classes-->
     <div class="jumbotron jumbotron-fluid my-jumbotron text-center">
         <div class="container">
@@ -268,44 +270,69 @@
         <!--insta-container, insta-div give unique/personalized class names for instagram pictures. each div is set with an a attribute to link to the specific image on the instagram page.
         each image is set as a background image as well to prevent stretching to fit the div to provide a better UX-->
         <p>Fayette County PRIDE on Instagram</p>
-        <div class="container insta-container">
-            <div class="row">
-                <a href="https://www.instagram.com/p/B1O3AlVhVUc/" target="_blank" class="insta-div insta1">
-                    <div class="col-6 col-md-4">
+        <!--<div class="container insta-container">-->
+        <!--    <div class="row">-->
+        <!--        <a href="https://www.instagram.com/p/B1O3AlVhVUc/" target="_blank" class="insta-div insta1">-->
+        <!--            <div class="col-6 col-md-4">-->
 
-                    </div>
-                </a>
-                <a href="https://www.instagram.com/p/B1O3ZXMhSEG/" target="_blank" class="insta-div insta2">
-                    <div class="col-6 col-md-4">
+        <!--            </div>-->
+        <!--        </a>-->
+        <!--        <a href="https://www.instagram.com/p/B1O3ZXMhSEG/" target="_blank" class="insta-div insta2">-->
+        <!--            <div class="col-6 col-md-4">-->
 
-                    </div>
-                </a>
-                <a href="https://www.instagram.com/p/B1O3WOABmyW/" target="_blank" class="insta-div insta3">
-                    <div class="col-6 col-md-4">
+        <!--            </div>-->
+        <!--        </a>-->
+        <!--        <a href="https://www.instagram.com/p/B1O3WOABmyW/" target="_blank" class="insta-div insta3">-->
+        <!--            <div class="col-6 col-md-4">-->
 
-                    </div>
-                </a>
-            </div>
+        <!--            </div>-->
+        <!--        </a>-->
+        <!--    </div>-->
 
-            <div class="row ">
-                <a href="https://www.instagram.com/p/B1O3NzhhV18/" target="_blank" class="insta-div insta4">
-                    <div class="col-6 col-md-4">
+        <!--    <div class="row ">-->
+        <!--        <a href="https://www.instagram.com/p/B1O3NzhhV18/" target="_blank" class="insta-div insta4">-->
+        <!--            <div class="col-6 col-md-4">-->
 
-                    </div>
-                </a>
-                <a href="https://www.instagram.com/p/B1O28Z5hydU/" target="_blank" class="insta-div insta5">
-                    <div class="col-6 col-md-4">
+        <!--            </div>-->
+        <!--        </a>-->
+        <!--        <a href="https://www.instagram.com/p/B1O28Z5hydU/" target="_blank" class="insta-div insta5">-->
+        <!--            <div class="col-6 col-md-4">-->
 
-                    </div>
-                </a>
-                <a href="https://www.instagram.com/p/B1O3QQoh-PD/ " target="_blank" class="insta-div insta6">
-                    <div class="col-6 col-md-4">
+        <!--            </div>-->
+        <!--        </a>-->
+        <!--        <a href="https://www.instagram.com/p/B1O3QQoh-PD/ " target="_blank" class="insta-div insta6">-->
+        <!--            <div class="col-6 col-md-4">-->
 
-                    </div>
-                </a>
-            </div>
+        <!--            </div>-->
+        <!--        </a>-->
+        <!--    </div>-->
 
-        </div>
+        <!--</div>-->
+        <p class="imglist my-fancy-gallery" style="max-width: 1000px;">
+            <a href="assets/images/day.png" class="my-fancybox" data-fancybox="images" data-caption="Fayette County PRIDE Celebration 2019">
+    <img class="insta-div insta1"></img>
+  </a>
+
+            <a href="assets/images/stonewall.png" class="my-fancybox" data-fancybox="images" data-caption="Stonewall Inn 1979">
+    <img class="insta-div insta2" />
+  </a>
+
+            <a href="assets/images/pride2.png" class="my-fancybox" data-fancybox="images" data-caption="Group picture 2019 PRIDE">
+    <img class="insta-div insta3" />
+  </a>
+
+            <a href="assets/images/poster.png" class="my-fancybox" data-fancybox="images" data-caption="Flyer 2019 PRIDE">
+    <img class="insta-div insta4" />
+  </a>
+
+            <a href="assets/images/wrong.png" class="my-fancybox" data-fancybox="images" data-caption="Pride march 1982">
+    <img class="insta-div insta5" />
+  </a>
+
+            <a href="assets/images/sky.png" class="my-fancybox" data-fancybox="images" data-caption="Crowd PRIDE 2019">
+    <img class="insta-div insta6" />
+  </a>
+        </p>
 
     </div>
 
@@ -325,9 +352,9 @@
                 </div>
                 <div class="col-4">
                     <p> 555-434-6979</p>
-                   
-                       <p> 123 Alphabet RD.</p>
-                       <p> Washington Court House, Ohio 43160</p>
+
+                    <p> 123 Alphabet RD.</p>
+                    <p> Washington Court House, Ohio 43160</p>
                 </div>
                 <div class="col-4">
                     <ul class="list-inline footer-social-media">
@@ -355,7 +382,7 @@
 
 
     <!--contactinfo-->
-    
+
     <!--Modal 1-->
     <!--modal appears to allow vendors to print and fill out application to buy spots for our events-->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -387,7 +414,7 @@
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <script src="assets/js/moreInfo.js"></script>
-    
+
     <!--script used for google map API-->
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDd_ADmYQKWo-a23McnGFRcXLkRrE61INI&callback=initMap"></script>
@@ -399,7 +426,10 @@
     <!--script needed to link my bootstrap classes-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    
+    <!--Script for Fancybox-->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+
 
     <!-- Modal -->
 
